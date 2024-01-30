@@ -2000,17 +2000,17 @@ In this example, a JavaBean is created to encapsulate data and functionality int
 
 Certainly! Let's format the information into clear and concise sections:
 
-## **Java Reflection:**
+## Java Reflection:
 
-- **Definition:**
+- Definition:
   Reflection is the process of examining or modifying the behavior of a program at runtime. It allows inspection, analysis, and modification of classes, interfaces, and methods dynamically.
 
-- **Usage:**
+- Usage:
   - Used to instantiate classes, invoke methods, and access fields.
   - Implements dependency injection frameworks like Spring and object-relational mapping (ORM) frameworks such as Hibernate.
   - Part of the Java Standard Edition (Java SE) platform.
 
-- **Example:**
+- Example:
   ```java
   import java.lang.reflect.Constructor;
   import java.lang.reflect.Field;
@@ -2037,16 +2037,16 @@ Certainly! Let's format the information into clear and concise sections:
   }
   ```
 
-## **Java Annotations:**
+## Java Annotations:
 
-- **Definition:**
+- Definition:
   Annotations provide metadata about a program without modifying the code itself. They offer instructions to the compiler, runtime environment, build tools, IDE, and more.
 
-- **Usage:**
+- Usage:
   - Applied at various levels, such as source code generation, unit testing, and deployment.
   - Used for providing instructions to different tools like monitoring, logging, security, etc.
 
-- **Example:**
+- Example:
   ```java
   import java.lang.annotation.*;
 
@@ -2071,15 +2071,15 @@ Certainly! Let's format the information into clear and concise sections:
   }
   ```
 
-## **Java Generics:**
+## Java Generics:
 
-- **Definition:**
+- Definition:
   Generics provide compile-time type safety for various Java elements.
 
-- **Usage:**
+- Usage:
   - Ensures type safety for collections, classes, methods, interfaces, etc.
 
-- **Example:**
+- Example:
   ```java
   import java.util.ArrayList;
   import java.util.List;
@@ -2102,15 +2102,15 @@ Certainly! Let's format the information into clear and concise sections:
   }
   ```
 
-## **Java Streams:**
+## Java Streams:
 
-- **Definition:**
+- Definition:
   Streams are used for performing operations on collections.
 
-- **Usage:**
+- Usage:
   - Applicable to arrays, files, I/O, networking, concurrency, JDBC, JavaBeans, reflection, and annotations.
 
-- **Example:**
+- Example:
   ```java
   import java.util.ArrayList;
   import java.util.List;
@@ -2131,16 +2131,16 @@ Certainly! Let's format the information into clear and concise sections:
   }
   ```
 
-## **Java I/O:**
+## Java I/O:
 
-- **Definition:**
+- Definition:
   I/O (Input/Output) is the process of reading from and writing to files. It is used for persistent data storage and interaction with various elements.
 
-- **Usage:**
+- Usage:
   - Essential for persistent data storage, user interaction, networking, etc.
   - Interacts with console, network, database, JavaBeans, reflection, annotations, and streams.
 
-- **Example:**
+- Example:
   ```java
   import java.io.*;
 
